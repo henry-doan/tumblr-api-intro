@@ -1,0 +1,3 @@
+CONSUMER_KEY: 'tumblr oauth key'
+CONSUMER_SECRET: 'tumblr oauth secret'
+HOSTNAME: '<username>.tumblr.com'

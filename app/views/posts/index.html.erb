@@ -1,0 +1,8 @@
+<ul class="posts">
+	<% @posts.each do |post| %>
+		<li>
+			<div><%= post['title'] %></div>
+			<div><%= post['body'].html_safe if post['body'] %></div>
+		</li>
+	<% end %>
+</ul>
